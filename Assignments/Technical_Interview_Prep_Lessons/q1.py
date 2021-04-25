@@ -1,3 +1,7 @@
+""""Given an array a of n numbers and a target value t, find two numbers whose sum is t.
+Example: a=[5, 3, 6, 8, 2, 4, 7], t=10 ⇒ [3, 7] or [6, 4] or [8, 2]""""
+
+
 class Solution:
     # solution # 1
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -13,3 +17,4 @@ class Solution:
         else:  
             print("No solutions exist")
         
+
